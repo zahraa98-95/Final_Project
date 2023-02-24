@@ -13,6 +13,10 @@ Tools:
 5. Helm
 6. Google Cloud Provider (gcp)
 
+-To create infrastructure by using Terraform_files , you must write this command in a terminal:
+1. terraform init
+2. terrafrom apply
+
 
 
 
