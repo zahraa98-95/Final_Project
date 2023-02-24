@@ -19,6 +19,8 @@ Tools:
 
 ![i1](https://user-images.githubusercontent.com/78254667/221216127-9028feb5-6930-43cd-ab9f-842f6908de8d.png)
 
-
+- Build Dockerfile and push image to GCR:
+1. docker build . -t gcr.io/project_id/python-img:v3.0
+2. docker push gcr.io/project_id/python-img:v3.0 
 
 
