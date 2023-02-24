@@ -17,6 +17,7 @@ Tools:
 1. terraform init
 2. terrafrom apply
 
+![i1](https://user-images.githubusercontent.com/78254667/221216127-9028feb5-6930-43cd-ab9f-842f6908de8d.png)
 
 
 
