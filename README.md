@@ -43,6 +43,9 @@ kubectl get svc -n jenkins
 
 ![i13](https://user-images.githubusercontent.com/78254667/221223145-b2ffb1c6-40ad-4bec-8131-9670bebf0e58.png)
 
+- add new credential
+- add new node
+
 
 
 
