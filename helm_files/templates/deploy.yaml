@@ -51,9 +51,9 @@ spec:
             timeoutSeconds: 5
             failureThreshold: 3
           volumeMounts:
-            - name: jenkins_data
+            - name: jenkins-data
               mountPath: /var/jenkins_home
       volumes:
-        - name: jenkins_data
+        - name: jenkins-data
           persistentVolumeClaim:
             claimName: jenkins-pv-claim

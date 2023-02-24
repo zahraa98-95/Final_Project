@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  jenk_deploy
+  name:  jenk-deploy
   namespace: jenkins
   labels:
     app:  jenkins-deploy
@@ -21,16 +21,16 @@ spec:
         fsGroup: 0
         runAsUser: 0
       containers:
-      - name:  jenk_deploy
-        image:  gcr.io/zahra-project41853/jenk_deploy
+      - name:  jenk-deploy
+        image:  gcr.io/zahra-project41853/jenkins-deploy
         imagePullPolicy: Always
         ports:
         - containerPort: 22
-          name:  jenk_deploy
+          name:  jenk-deploy
         volumeMounts:
-        - name: docker_sock
+        - name: docker-sock
           mountPath: /var/run/docker.sock
       volumes:
-        - name: docker_sock
+        - name: docker-sock
           hostPath:
             path: /var/run/docker.sock
