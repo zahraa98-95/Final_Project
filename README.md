@@ -41,4 +41,8 @@ kubectl get svc -n jenkins
 1. kubectl exec --stdin --tty jenkins-fd5fdf49f-6qgr2 -n jenkins -- /bin/bash
 2. cat /var/jenkins_home/secrets/initialAdminPassword
 
+![i13](https://user-images.githubusercontent.com/78254667/221223145-b2ffb1c6-40ad-4bec-8131-9670bebf0e58.png)
+
+
+
 
