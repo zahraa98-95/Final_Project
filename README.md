@@ -23,4 +23,7 @@ Tools:
 1. docker build . -t gcr.io/project_id/python-img:v3.0
 2. docker push gcr.io/project_id/python-img:v3.0 
 
+![i3](https://user-images.githubusercontent.com/78254667/221218520-5a1bbf35-7463-4e6c-9500-4725306f1d5a.png)
+![photo_2023-02-24_17-26-51](https://user-images.githubusercontent.com/78254667/221218533-56f8cf83-9034-4df5-94f5-0fd087fda1b7.jpg)
+
 
